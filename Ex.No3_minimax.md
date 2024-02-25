@@ -46,7 +46,9 @@ print(minimax(0, 0, True, scores, treeDepth))
 
 
 ### Output:
-![Screenshot (239)](https://github.com/chgeethika/AI_Lab_2023-24/assets/142209368/0f4def43-4e1a-4f05-b300-aba161220563)
+
+![Screenshot (239)](https://github.com/chgeethika/AI_Lab_2023-24/assets/142209368/43f685a9-f446-49ea-a250-aaf733bb6707)
+
 
 
 
