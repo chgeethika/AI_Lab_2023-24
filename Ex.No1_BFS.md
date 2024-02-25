@@ -40,16 +40,13 @@ def bfs(visited, graph, node):
 print("Following is the Breadth-First Search")
 bfs(visited, graph, '1')  
 ### Output:
-Following is the Breadth-First Search
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
+
+![bfs output](https://github.com/chgeethika/AI_Lab_2023-24/assets/142209368/af532e15-f020-4040-a8e0-024ae495b9b0)
+
+
+
+
+
+
 ### Result:
 Thus the breadth first search order was found sucessfully.
