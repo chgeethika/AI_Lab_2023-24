@@ -1,6 +1,6 @@
 # Ex.No: 10  Logic Programming –  Simple queries from facts and rules
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 18/03/2024                                                                          
+### REGISTER NUMBER : 212221040032
 ### AIM: 
 To write a prolog program to find the answer of query. 
 ###  Algorithm:
@@ -21,9 +21,15 @@ Construct the FOL representation for the following sentences <br>
 5.	 Bill eats peanuts  <br> 
    Convert into clause form and Prove that John like Apple by using Prolog. <br> 
 ### Program:
-
-
+```
+likes(john, X) :- food(X).
+food(apples).
+food(chicken).
+eats(sue, X) :- eats(bill, X).
+eats(bill, peanuts).
+```
 ### Output:
+![Screenshot (334)](https://github.com/chgeethika/AI_Lab_2023-24/assets/142209368/83ddbca4-a5ad-447c-b126-d3f010d219de)
 
 ### Task 2:
 Consider the following facts and represent them in predicate form: <br>              
@@ -34,9 +40,16 @@ Consider the following facts and represent them in predicate form: <br>
 Convert the facts in predicate form to clauses and then prove by resolution: “Steve likes BK301 course”<br> 
 
 ### Program:
-
+```
+likes(steve, Course) :- easy(Course).
+hard(science_courses).
+easy(Course) :- have_fun_department(Course).
+have_fun_department(bk301).
+```
 
 ### Output:
+![Screenshot (336)](https://github.com/chgeethika/AI_Lab_2023-24/assets/142209368/db55efce-55e2-4d28-b5f4-182de9cd03f2)
+
 
 ### Task 3:
 Consider the statement <br> 
