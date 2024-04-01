@@ -1,4 +1,4 @@
-![image](https://github.com/chgeethika/AI_Lab_2023-24/assets/142209368/ba6322a7-4d19-43de-a00a-013961cd315b)# Ex.No: 8  Logic Programming –  Medical Diagnosis Expert System
+### Ex.No: 8  Logic Programming –  Medical Diagnosis Expert System
 ### DATE: 27/03/2024                                                                           
 ### REGISTER NUMBER : 212221040032
 ### AIM: 
