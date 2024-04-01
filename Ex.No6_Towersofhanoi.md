@@ -32,7 +32,8 @@ move(N,X,Y,Z) :-
 
 
 ### Output:
-![Uploading Screenshot (402).png…]()
+![Screenshot (402)](https://github.com/chgeethika/AI_Lab_2023-24/assets/142209368/d7e1cbfa-bc7c-49d8-afc7-ed80a048d566)
+
 
 
 
