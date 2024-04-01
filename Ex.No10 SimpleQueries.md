@@ -56,9 +56,29 @@ Consider the statement <br>
 “This is a crime for an American to sell weapons to hostile nations. The Nano , enemy of America has some missiles and its missiles were sold it by Colonal West who is an American” <br> 
 Convert to Clause form and prove west is criminal by using Prolog.<br> 
 ### Program:
+```
+criminal(X):-
+ american(X),
+ weapon(Y),
+ hostile(Z),
+ sells(X,Y,Z).
+weapon(Y):-
+ missile(Y).
+hostile(Z):-
+ enemy(Z,X).
+sells(west,Y,nano):-
+ missile(Y),
+ owns(nano,Y).
+missile(m).
+owns(nano,m).
+enemy(nano,america).
+american(west).
+```
 
 
 ### Output:
+![Screenshot (403)](https://github.com/chgeethika/AI_Lab_2023-24/assets/142209368/de6a7e1e-d5c8-4c32-8f93-ad1efc1443f0)
+
 
 ### Result:
 Thus the prolog programs were executed successfully and the answer of query was found.
