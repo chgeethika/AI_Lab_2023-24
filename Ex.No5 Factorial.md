@@ -21,7 +21,8 @@ factorial(A,B) :-
            B is A*D.
 ```
 ### Output:
-![Screenshot (333)](https://github.com/chgeethika/AI_Lab_2023-24/assets/142209368/d925111d-9ee9-472f-b300-23c234569100)
+![Screenshot (333)](https://github.com/chgeethika/AI_Lab_2023-24/assets/142209368/f38470f2-f6a6-4c7a-a64f-c9058c8a8b9e)
+
 
 
 
